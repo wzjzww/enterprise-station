@@ -1,0 +1,34 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html,body {
+	height: 100%;
+}
+body {
+	text-align: center;
+	font: 14px/1.5 "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #333;
+	background: #fff;
+	min-width: 1500px;
+}
+a {
+	color:#fff;
+	text-decoration: none;
+}
+p {
+	color:rgb(119,119,119);
+}
+ul {
+	list-style: none;
+}
+.layout {
+	width: 1200px;
+	margin: 0 auto;
+}
+.clearfix::after {
+	content: '';
+	display: block;
+	clear: both;
+}

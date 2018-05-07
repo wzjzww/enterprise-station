@@ -1,0 +1,124 @@
+section {
+	height: 100%;
+	margin-top: 150px;
+}
+section h2 {
+	font-size: 40px;
+	font-weight: bold;
+}
+section>p {
+	font-style: italic;
+	font-size: 16px;
+	margin-top: 10px;
+}
+.icon {
+	text-align: center;
+	height: 300px;
+	margin-top: 80px;
+}
+.icon>li {
+	float: left;
+	width: 33%;
+}
+.icon .iconfont {
+	display:inline-block;
+	color:#fff;
+	font-size: 50px;
+	padding:10px 22px;
+	background: rgb(254,209,54);
+	border-radius: 100%;
+}
+.icon h3,p {
+	margin-top: 30px;
+}
+.icon h3 {
+	font-size: 18px;
+}
+figure {
+	width:32%;
+	float: left;
+	background: #eee;
+	margin-top: 30px;
+	margin-left:10px;
+	box-shadow: 0px 10px 8px 0 rgb(0,0,0,0.2);
+}
+figure img {
+	width: 100%;
+}
+figure h3 {
+	font-size: 20px;
+	margin-top: 20px;
+}
+figure p {
+	font-size: 16px;
+	font-style: italic;
+	margin: 0;
+	margin-bottom: 20px;
+}
+.card {
+	margin-top: 30px;
+}
+.timeline>li::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+section .timeline img, 
+section .timeline .img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border: solid 3px lightblue;
+}
+section .timeline .img{
+	float: right;
+	padding-top:30px;
+	
+}
+section .timeline img:nth-child(odd) {
+	float: right;
+}
+section .timeline>li:nth-child(odd) {
+	padding-right: 44%;
+	padding-left:10%;
+	margin-top: 100px;
+}
+section .timeline>li:nth-child(odd) dl {
+	text-align: right;
+	margin-right: 200px;
+}
+section .timeline > li:nth-child(even) {
+	padding-left: 44%;
+	padding-right:10%;
+	margin-top: 100px;
+}
+section .timeline>li:nth-child(even) img {
+	float: left;
+}
+section .timeline>li:nth-child(even) dl {
+	text-align: left;
+	margin-left: 200px;
+}
+section .timeline>li {
+	position:relative;
+}
+section .timeline>li::before {
+	content: '';
+	position:absolute;
+	top:147px;
+	left:50%;
+	display:inline-block;
+	width:4px;
+	height:103px;
+	border: solid 1px lightblue;
+	background-color: lightblue;
+}
+section .timeline>li:last-child::before {
+	height: 0;
+}
+.img {
+	color: #fff;
+    background: rgb(254,209,54);
+    font-size: 20px;
+    font-weight: bold;
+}
